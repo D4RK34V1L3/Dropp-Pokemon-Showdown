@@ -1,7 +1,7 @@
 // The server port - the port to run Pokemon Showdown under
 //exports.port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 //exports.bindaddress = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
-exports.port = 8000;
+exports.port = 8080;
 
 // proxyip - proxy IPs with trusted X-Forwarded-For headers
 //   This can be either false (meaning not to trust any proxies) or an array
@@ -15,7 +15,7 @@ exports.proxyip = ['127.0.0.0/8'];
 //   in every Random Battle team.
 exports.potd = '';
 exports.superAdmins = {
-	"bailong2": 1
+	"darkeavile": 1
 };
 
 // crash guard - write errors to log file instead of crashing
